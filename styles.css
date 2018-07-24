@@ -16,7 +16,7 @@ div hr {
 }
 
 .back{
-    background-image: url("../img/business-office-morning-coffee_free_stock_photos_picjumbo_HNCK3988-2210x1473.jpg");
+    background-image: url("img/business-office-morning-coffee_free_stock_photos_picjumbo_HNCK3988-2210x1473.jpg");
     height: 95vh;
     width: 100%;
     background-size: cover;
@@ -100,7 +100,7 @@ div hr {
   }
   
 .pic{
-  background-image: url("../img/photo.jpeg");
+  background-image: url("img/photo.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   height: 250px;
