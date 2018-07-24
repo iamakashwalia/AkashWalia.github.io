@@ -1,0 +1,558 @@
+div hr {
+    color: firebrick;
+    border:none;
+    height: 20px;
+       width: 90%;
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 2px solid #f00;
+      box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
+  }
+.skl{
+    margin-left: 15%;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.back{
+    background-image: url("../img/business-office-morning-coffee_free_stock_photos_picjumbo_HNCK3988-2210x1473.jpg");
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.name{
+  width: 45%;
+  height: 30%;
+  font-size: 70px;
+  letter-spacing: 10px;
+  color: #636363;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+   
+}
+.nahov:hover{
+  background-color: #636363;
+  color: rgb(240, 233, 233);
+  border-radius: 20px;
+  animation: fadeIn;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2   s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideInDown {
+    0% {
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100, 0);
+      visibility: visible;
+    }
+  
+    60% {
+      -webkit-transform: translate3d(0, 10%, 0);
+      transform: translate3d(0, 10, 0);
+    }
+    85% {
+      -webkit-transform: translate3d(0, -5%, 0);
+      transform: translate3d(0, -5, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .slideInDown {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+  }
+  
+.pic{
+  background-image: url("../img/photo.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  background-size: 250px;
+  vertical-align: middle;
+  position: absolute;
+  top:60vh;
+  bottom: 10vh;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  border: 500px;
+  border-color: white;
+  margin: auto;
+}
+
+.pic:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+  }
+  
+.carousel{
+    height: 60vh;
+}
+.skills{
+    height: 70vh;
+    background-image: url(img/coffee-laptop-business-work-still-life_free_stock_photos_picjumbo_HNCK9012-2210x1474.jpg);
+    background-attachment: fixed;
+}
+.contact{
+    height: 35vh;
+    background-attachment: fixed;
+    background-position: right;
+    letter-spacing: 5px;
+}
+.col-sm-6{
+    margin: 10vh;
+    background-color: cornflowerblue;
+    letter-spacing: 5px;
+    
+}
+.id{
+    background-color: #3B5998;
+    color: aliceblue;
+}
+.left{
+    text-align: left;
+}
+.follow{
+    color: white;
+    background-color: darkgray;
+     letter-spacing: 5px;
+}
+.social{
+    margin: 10vh;
+    letter-spacing: 20px;
+}
+.card{
+    text-align: center;
+    margin: 20px;
+    height: 180px;
+    width: 180px;
+}
+.card-body:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+    
+}
+div h2{
+    margin-top: 50px;
+}
+div i{
+    margin-top:10%;
+    margin-bottom: auto;
+    margin-left: 40px;
+    margin-right: auto;
+}
+.abt{
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+@media only screen 
+and (max-width : 1080px) {
+    div hr {
+    color: firebrick;
+    border:none;
+    height: 20px;
+       width: 90%;
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 2px solid #f00;
+      box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
+  }
+    
+.skl{
+    margin-left: 15%;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.back{
+    background-image: url("../img/business-office-morning-coffee_free_stock_photos_picjumbo_HNCK3988-2210x1473.jpg");
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.name{
+  width: 70%;
+  height: 35%;
+  font-size: 100px;
+  letter-spacing: 5px;
+  color: #636363;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+   
+}
+.nahov:hover{
+  background-color: #636363;
+  color: rgb(240, 233, 233);
+  border-radius: 20px;
+  animation: fadeIn;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2   s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideInDown {
+    0% {
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100, 0);
+      visibility: visible;
+    }
+  
+    60% {
+      -webkit-transform: translate3d(0, 10%, 0);
+      transform: translate3d(0, 10, 0);
+    }
+    85% {
+      -webkit-transform: translate3d(0, -5%, 0);
+      transform: translate3d(0, -5, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .slideInDown {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+  }
+  
+.pic{
+  background-image: url("../img/photo.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  background-size: 250px;
+  vertical-align: middle;
+  position: absolute;
+  top:-10%;
+  bottom: 10vh;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  border: 500px;
+  border-color: white;
+  margin: auto;
+}
+
+.pic:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+  }
+  
+.carousel{
+    height: 30vh;
+}
+.skills{
+    height: 30vh;
+    background-image: url(img/coffee-laptop-business-work-still-life_free_stock_photos_picjumbo_HNCK9012-2210x1474.jpg);
+    background-attachment: fixed;
+}
+.contact{
+    height: 20vh;
+    background-attachment: fixed;
+    background-position: right;
+    letter-spacing: 5px;
+}
+.col-sm-6{
+    margin: 10vh;
+    background-color: cornflowerblue;
+    letter-spacing: 5px;
+    
+}
+.id{
+    background-color: #3B5998;
+    color: aliceblue;
+}
+.left{
+    text-align: left;
+}
+.follow{
+    color: white;
+    background-color: darkgray;
+     letter-spacing: 2px;
+}
+.social{
+    margin: 6vh;
+    letter-spacing: 15px;
+}
+.card{
+    text-align: center;
+    margin: 20px;
+    height: 180px;
+    width: 180px;
+}
+.card-body:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+    
+}
+div h2{
+    margin-top: 50px;
+}
+div i{
+    margin-top:18%;
+    margin-bottom: auto;
+    margin-left: 20px;
+    margin-right: auto;
+}
+.abt{
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+}
+@media only screen 
+and (max-width : 1260px) {
+    div hr {
+    color: firebrick;
+    border:none;
+    height: 20px;
+       width: 90%;
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 2px solid #f00;
+      box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
+  }
+    
+.skl{
+    margin-left: 15%;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.back{
+    background-image: url("../img/business-office-morning-coffee_free_stock_photos_picjumbo_HNCK3988-2210x1473.jpg");
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.name{
+  width: 70%;
+  height: 35%;
+  font-size: 100px;
+  letter-spacing: 5px;
+  color: #636363;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+   
+}
+.nahov:hover{
+  background-color: #636363;
+  color: rgb(240, 233, 233);
+  border-radius: 20px;
+  animation: fadeIn;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2   s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideInDown {
+    0% {
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100, 0);
+      visibility: visible;
+    }
+  
+    60% {
+      -webkit-transform: translate3d(0, 10%, 0);
+      transform: translate3d(0, 10, 0);
+    }
+    85% {
+      -webkit-transform: translate3d(0, -5%, 0);
+      transform: translate3d(0, -5, 0);
+    }
+    100% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .slideInDown {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+  }
+  
+.pic{
+  background-image: url("../img/photo.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: 250px;
+  background-size: 250px;
+  vertical-align: middle;
+  position: absolute;
+  top:-10%;
+  bottom: 10vh;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  border: 500px;
+  border-color: white;
+  margin: auto;
+}
+
+.pic:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+  }
+  
+.carousel{
+    height: 30vh;
+}
+.skills{
+    height: 25vh;
+    background-image: url(img/coffee-laptop-business-work-still-life_free_stock_photos_picjumbo_HNCK9012-2210x1474.jpg);
+    background-attachment: fixed;
+}
+.contact{
+    height: 15vh;
+    background-attachment: fixed;
+    background-position: right;
+    letter-spacing: 3px;
+}
+    
+.id{
+    background-color: #3B5998;
+    color: aliceblue;
+}
+.left{
+    text-align: left;
+}
+.follow{
+    color: white;
+    background-color: darkgray;
+     letter-spacing: 1px;
+}
+.social{
+    margin: 4vh;
+    letter-spacing: 10px;
+}
+.card{
+    text-align: center;
+    margin: 10px;
+    height: 150px;
+    width: 200px;
+}
+.card-body:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+    
+}
+div h2{
+    margin-top: 40px;
+    font-size: 20px;
+}
+div i{
+    margin-top:12%;
+    margin-bottom: auto;
+    margin-left: 50px;
+    margin-right: auto;
+}
+.abt{
+    margin-top: 40px;
+    margin-bottom: auto;
+}
+
+}
