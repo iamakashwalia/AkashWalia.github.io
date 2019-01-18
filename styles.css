@@ -121,6 +121,7 @@ div hr {
 .pic:hover{
     transform: scale(1.2);
     transition-duration: 1s;
+    transition-property: all;
   }
   
 .carousel{
@@ -168,7 +169,7 @@ div hr {
 .card-body:hover{
     transform: scale(1.2);
     transition-duration: 1s;
-    
+    transition-property: all;
 }
 div h2{
     margin-top: 50px;
